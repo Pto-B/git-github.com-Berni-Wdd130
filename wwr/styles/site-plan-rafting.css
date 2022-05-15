@@ -1,4 +1,4 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
+ /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
@@ -171,16 +171,6 @@ nav a:hover {
 width:1500px;  
 }
 
-
-
-footer {
-  display: grid;
-   grid-template-columns: 1fr max-content repeat(5, max-content);
-   align-items: center;
-   justify-content: center;
-   line-height: 2.75em;
- }
- 
 
  
  
