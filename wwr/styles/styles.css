@@ -13,8 +13,8 @@ padding:10px;
 }
 
 footer h3 a:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);  
+    color: white;
+    background-color: steelblue;  
 }
  
 footer{
@@ -49,17 +49,22 @@ a {
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
 
-
-
+ #background{
+    height:725px;
+     background-color: rgb(253, 217, 11);
+ }
   
 
 nav a {
     color: white;
   }
   nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+    color: white;
+    background-color: steelblue;
   }
   
  
@@ -146,7 +151,7 @@ font-family: Brush Script MT;
  
 }
 
-.five h4 {
+.five {
     text-align: center;
     font-family: Brush Script MT;
     text-decoration: none;
