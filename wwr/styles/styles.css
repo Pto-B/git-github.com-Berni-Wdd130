@@ -1,9 +1,11 @@
- footer {
+  
+
+footer {
     background-color: steelblue;
     color: white;
 }
 
-.footer p {
+footer p {
     padding: 25px;
 }
 
@@ -18,20 +20,18 @@ footer h3 a:hover{
 }
  
 footer{
-    height:180px;
-    line-height:0%;
-       
+    
+ padding:25px 50px;  
+ margin-top: 200px;    
 }
 
-footer{
-    padding:0%;
+footer.social img{
+    padding-top:15px;
 }
-.main p{
-    margin: 50px auto; 
-}
-
+ 
 .main p{
     padding:0 auto;
+    margin: 50px auto;
 }
 
 
@@ -56,22 +56,17 @@ a{
  #background{
     height:725px;
      background-color: rgb(253, 217, 11);
+     margin: 150px 0;
  }
   
 
-nav a {
-    color: white;
-  }
+ 
   nav a:hover {
     color: white;
     background-color: steelblue;
   }
   
  
- 
-
-
-
 h4 a{
     color: black;
           
@@ -85,9 +80,11 @@ nav {
  
 
 
-.nav a {
-    text-align:center;
+nav a {
+    text-decoration: none;
     color: white;
+    text-align:center;
+    padding: 35px;
 }
 
 a {
@@ -96,31 +93,51 @@ a {
 }
 
 
-body {
-    margin: 0
-   
-}
-
 
 body{
-    background-color: whitesmoke;
-
+background-color: white;
+font-family:Brush Script MT ;
+font-size: 22px;
+margin: 0;
+padding: 0;
 }
 
 
-.book{
-color:black;  
-      
+
+
+
+
+.join{
+    background-color: #D4AC0D;
+    color: black;
+    text-decoration:none;
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
+.icon {
+    padding-top: 10px;
+}
+
+.msg{
+    background-color: steelblue;
+    line-height: 1.5em;
+ padding:35px;    
+  }
+  
+
+.msg p{
+    text-align: left;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 .card-img{
-    border: 4px solid rgb(253, 217, 11); 
-width:300px;
-padding: 12px; 
-}
-
-home-title{
-margin-top: 100px;
+    border: 10px solid rgb(253, 217, 11);
+     
+    width:300px;
+    padding: 12px; 
 }
     
 
@@ -135,13 +152,14 @@ margin-top: 100px;
     width: 99%;   
 }
 .logo{
-    width:80px;
-    
+    width:80px;    
 }
 .home-title{
 text-align: center;
 color: #0C0CF1;;
 font-family: Brush Script MT;
+font-size: 2em;
+margin-top: 10px;
 }
 
 .second{
@@ -151,16 +169,17 @@ font-family: Brush Script MT;
  
 }
 
-.five {
+.book {
+    
     text-align: center;
     font-family: Brush Script MT;
     text-decoration: none;
-    line-height: normal;
-    color: black;
-     
+    color: rgb(253, 217, 11);  
+    font-size: 18px;
+    padding: 15px 30px; 
+    margin-top: 50px;
+    border-radius: 5px;
 }
- 
-
 .home-grid a:hover{
     color: rgb(253, 217, 11);
     background-color: steelblue;    
@@ -170,23 +189,22 @@ font-family: Brush Script MT;
 color: #D4AC0D;
  }
 
- 
 
 
-
-
-
-.rafting1-card {
+.revers-card {
     text-align: center;
     color: #0C0CF1;
-    font-family: Brush Script MT;    
+    font-family: Brush Script MT; 
+ margin: 200px 0;      
 }
+
 
 
 .camping-card {
 text-align: center;
     color: #0C0CF1;
     font-family: Brush Script MT;
+margin: 200px 0;
 }
 
 main section{
@@ -198,6 +216,7 @@ main section{
     text-align: center;
         color: #0C0CF1;
         font-family: Brush Script MT;
+ margin: 200px 0;       
     }
 
 rafting-boat{
@@ -206,17 +225,13 @@ rafting-boat{
     font-family: Brush Script MT;  
 } 
 
-.msg{
-  background-color: steelblue;  
-}
 
 .msg h2{
     text-align: center;
     color: white;
+    font-family: Brush Script MT ;
 }
-.msg p{
-    text-align: left;
-}
+
 p{
     color: white;    
 }
@@ -225,11 +240,7 @@ p{
     color: black;
     text-align: center;   
 }
-.join{
-    background-color: #D4AC0D;
-    text-decoration:none;
-    
-}
+
 .join:hover{
     color:white;
     background-color: steelblue;      
@@ -243,4 +254,13 @@ a{
 }
 h2{
     text-align: center;
+    margin:0;
+}
+
+#logo_link{
+    padding-top: 5px;
+
+}
+main section img{
+    box-sizing:border-box;
 }
