@@ -549,6 +549,768 @@ a {
    
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+   
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: white;
+    background-color: steelblue;
+  }
+
+ 
+nav {
+    background-color: steelblue;
+    height:10px;
+    padding-top: 35px;
+    padding-bottom: 66px;
+    position: absolute;
+    margin-left: 19%;
+    width:20%;
+    margin-left:12% ;
+   padding-right :110%;
+  }
+
+  
+a {
+    color: white;
+    text-align: justify;
+    padding-right: 1%;
+    padding-left:1%;
+   
+    text-decoration: none;
+  }
+  
+  
+
+ 
+
+#hero {
+    display: grid;
+    grid-template-columns: 5fr 3fr 1fr;
+     top: 102%; 
+    margin-left: 190%;
+    width: 1000%;
+    padding-right: 170%;
+    position: absolute;
+    
+    height:150%;
+}  
+  
+
+.home-grid{
+    
+    margin-right: 10%;
+ position: center;  
+   
+   
+    
+}
+
+    
+  
+  #hero-box {
+    grid-column: 4/4;
+    grid-row: 1/3;
+    z-index: -1;
+  }
+
+
+
+  
+
+#hero-msg h4 {
+    color: white;
+  }
+  #hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+  }
+
+
+
+
+  
+.msg {
+    background-color: steelblue;
+    padding: 170%;
+    grid-column: 10/10;
+    grid-row: 7/7;
+    box-shadow: 15px 5px 10px steelblue;
+
+    
+    position: absolute; 
+    top:40%; 
+    left: 65%;
+    width: 5px; 
+    height: 25%;
+    margin-left: 10%;
+  }
+ 
+  
+
+
+  
+
+
+
+h4{
+    left: 1%;
+    top: 94%; 
+    left: 30%;
+    right:10%;
+    position: absolute; 
+}
+h1{
+    text-align: center;
+    
+}
+
+h2{
+
+text-align: center;
+ left: 5%;
+ top:20%;
+ 
+ position: relative;
+}
+
+
+
+.book{
+    
+        background-color: #D4AC0D;
+        color: black;
+        text-decoration:none;
+        font-size: 16px;
+        padding: 2px 5px; 
+        margin-top: 45px;
+        border-radius: 0px;
+        left: 1%;
+        top: 33%; 
+        left: 42%;
+        right:30.5%;
+        position: absolute; 
+        text-align: center;
+        width: 10%;
+}
+
+.second{
+    left: 1%;
+    top: 33%; 
+    left: 37%;
+    right:30.5%;
+    position: absolute; 
+    text-align: center;
+    width: 20%;  
+}
+
+
+#logo_link {
+    padding-top: 25px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+
+
+
+footer{
+    background-color:steelblue;
+    padding: 27px 90px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;  
+
+}
+
+
+
+
+   
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+ 
+.card-img{
+    border: 5px solid #f1e20d;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #d9c2a3;
+    justify-self:flex-end;
+   right:150%; 
+
+  
+}
+
+.social{
+    left: 70%;
+    align-self:flex-start;
+}
+
+
+
+ 
+
+
+
+
+.present{
+    position: absolute; 
+    top: 28%; 
+    left: 1%;
+   font-size: 2.5em;
+    height: 150px;
+    padding-right:5%;
+    font-size: 4em;
+    background-color: #D4AC0D; 
+    width: 96%;
+
+}
+
+
+
+
+
+
+
+
+ 
+   
+  .home-title2{
+      position: center; 
+      
+      position: absolute; 
+      top: 5%; 
+      left: 1%;
+     font-size: 2.5em;
+      height: 152px;
+      padding-right:5%;
+      font-size: 4em;
+      background-color: #D4AC0D; 
+      width: 96%; 
+  }
+
+.title{
+ font-size:    4em;
+ top:100%;
+ color: steelblue;
+}
+   
+.questions{
+    text-align: left;
+    color:black;
+    }
+
+
+.conteneur{
+    width: 1178px;
+    height: 131px;
+    background-color: #D4AC0D; 
+    position: absolute;
+   top:13%;
+   padding-bottom: 54%;
+   padding-left: 8%;
+   padding-right: 2%;
+} 
+
+
+
+
+
+.msg {
+   
+    padding: 35px;
+    width: 50%;
+    grid-column: 10/10;
+    grid-row: 6/7;
+   
+    position:absolute;
+    padding-right: 12%;
+  }
+
+.logo{
+    width:162px;
+    height:109%;
+ top:0%;
+ padding-bottom:5%;
+ position: absolute;
+ margin-left: 118%;
+ right:00%;
+
+}
+.logo-box{
+
+    border:solid 3px #D4AC0D;
+    margin-top:00%;
+   margin-bottom: 39%;
+   position: absolute;
+   height:2%;
+   padding-right:8%;
+   margin-left:  0%;
+   padding-bottom: 4.5%;
+   margin-right:110%
+}
+
+
+
+
+.more{
+    left: 5%;
+    top: 2%; 
+    
+    right:25%;
+    position: absolute; 
+    margin-right: 5%;
+
+    grid-column: 10/10;
+    grid-row: 6/7;
+text-align: center;
+ 
+}
+
+
+
+
+
+
+
+.mountains {
+    width: 25%; 
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+    background-color: #f1e20d;
+ 
+}
+
+#background{
+    background-color: #D4AC0D;
+    height: 350px;
+   position: left;
+   width: 111%;
+}
+
+
+
+.mountains {
+    width: 50%;
+    display: block;
+    margin-left: 100px;
+
+
+    position: absolute; 
+    top: 40%; 
+    left: 60%;
+    width: 30%; 
+    height: 45%;
+    right:250%;
+    bottom:100%;
+}
+ 
+.msg{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+   
+   
+}
+ 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .container {
+    width: 230px;
+    height: 15em;
+   
+    border-radius: .5em;
+    padding: 10px;
+   flex-direction: column;
+    
+  }
+  
+  .item {
+    padding: 11px;
+ 
+  }
+  
+  .card-img{
+    width: 350px;
+    position:center;
+  }
+  
+.icon{
+    left: 1100%;
+}
+
+
+.river_icon{
+    position: absolute; 
+    top:176%; 
+    
+    width: 8%; 
+    height: 15%;
+    left:13.5%;
+}
+
+.fire_icon {
+    position: absolute; 
+    top:176%; 
+    
+    width: 8%; 
+    height: 15%;
+    left:42.5%;
+     
+}
+
+
+
+
+.ors_icon {
+    position: absolute; 
+    top:176%; 
+    
+    width: 8%; 
+    height: 15%;
+    left:71.5%;
+}
+
+ body{
+     background-color: white;
+ }
+
+
+
+
+
+ 
+h1 {
+    margin: 50px 0;
+}
+
+
+nav {
+    background-color: steelblue;
+}
+a {
+    color: white;
+}
+
+
+nav {
+    padding: 25px;
+}
+
+
+a {
+    padding: 25px;
+}
+
+
+body {
+    margin: 0
+}
+ 
+
+
+body{
+    background-color: white;
+}  
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    color: white;
+    background-color: steelblue;
+  }
+
+ 
+nav {
+    background-color: steelblue;
+    height:53px;
+    padding-top: 00px;
+    padding-bottom: 25px;
+    padding-left: 10%;
+     width: 952px;
+    padding-right: 5%;
+    
+  }
+
+  
+a {
+    color: white;
+    text-align: center;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+ 
+
+ 
+
+
+  
+ 
+  
+  
+
+   
+
+
+
+
+
+
+
+
+
+ 
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
  
 
 
