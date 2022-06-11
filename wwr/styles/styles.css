@@ -90,36 +90,23 @@ a {
   
 .msg {
     background-color: steelblue;
-    padding: 150%;
+    padding:80%;
     grid-column: 10/10;
     grid-row: 6/7;
-    box-shadow: 15px 5px 10px steelblue;
+    box-shadow: 15px 25px 10px steelblue;
 
     
     position: absolute; 
-    top:350%; 
+    top:34%; 
     left: 35%;
-    width: 103px; 
-    height: 25%;
+    width:100px; 
+    height: 10%;
     
   }
  
   
 
 
-  
-.home-title{
-    
-    position: center; 
-    
-    position: absolute; 
-    top: 12%; 
-    left: 1%;
-   font-size: 2.5em;
-    height: 61px;
-    right:1%;
-    font-size: 4em;
-   }
   
    
 
@@ -158,10 +145,10 @@ text-align: center;
         padding: 2px 5px; 
         margin-top: 45px;
         border-radius: 0px;
-        left: 1%;
+        left: 11%;
         top: 33%; 
-        left: 42%;
-        right:30.5%;
+        left: 152%;
+        right:40.5%;
         position: absolute; 
         text-align: center;
         width: 10%;
@@ -234,13 +221,15 @@ footer{
     color: black;
     text-decoration:none;
     font-size: 18px;
-    padding: 15px 30px; 
-    margin-top: 10px;
+    padding: 20px 40px; 
+    margin-top: 18px;
     border-radius: 5px;
-    text-align: center;
-    margin-left: 145px;
-    padding-top: 7px;
-
+    text-align: left;
+    margin-left: 165px;
+    padding-top: 1%;
+     position: absolute;
+     bottom:22%;
+     left:19%;
 }      
 
 
@@ -248,13 +237,13 @@ footer{
 
 
 p{
-    color: rgb(250, 248, 248);    
+    color: black;    
 }
 
 
 .msg {
     background-color: steelblue;
-    padding: 45px;
+    padding: 140px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px steelblue;
@@ -262,7 +251,7 @@ p{
   }
 
 .logo{
-    width:135px;
+    width:52px;
     height:109%;
  top:0%;
  padding-bottom:5%;
@@ -289,7 +278,7 @@ p{
 
 .more{
     left: 5%;
-    top: 3%; 
+    top: 95%; 
     
     right:25%;
     position: absolute; 
@@ -316,13 +305,6 @@ text-align: center;
  
 }
 
-#background{
-    background-color: #D4AC0D;
-    height: 350px;
-   position: left;
-   width: 111%;
-}
-
 
 
 .mountains {
@@ -332,16 +314,16 @@ text-align: center;
 
 
     position: absolute; 
-    top: 211%; 
+    top: 65%; 
     left: 2%;
     width: 35%; 
     height: 45%;
     right:300%;
-    bottom:100%;
+    bottom:20%;
 }
  
 .msg{
-    width: 30%;
+    width:90%;
     display: block;
     margin: 0 auto; 
 }
@@ -485,24 +467,6 @@ a {
  
 
 
-  
- 
-  
-  
-
-   
-
-
-
-
-
-
-
-
-
- 
-
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -549,147 +513,6 @@ a {
    
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -713,9 +536,9 @@ nav {
     padding-bottom: 66px;
     position: absolute;
     margin-left: 19%;
-    width:20%;
+    width:21%;
     margin-left:12% ;
-   padding-right :110%;
+   padding-right :113%;
   }
 
   
@@ -780,19 +603,19 @@ a {
 
   
 .msg {
-    background-color: steelblue;
-    padding: 170%;
+    background-color: rgba(30, 142, 235, 0.219);
+    padding: 180%;
     grid-column: 10/10;
     grid-row: 7/7;
-    box-shadow: 15px 5px 10px steelblue;
+    
 
     
     position: absolute; 
-    top:206%; 
-    left: 35%;
-    width: 5px; 
-    height: 25%;
-    margin-left: 10%;
+    top:174%; 
+    left: 1%;
+    width: 295%; 
+    height: 80%;
+    margin-left: 95%;
   }
  
   
@@ -834,8 +657,8 @@ text-align: center;
         padding: 2px 5px; 
         margin-top: 45px;
         border-radius: 0px;
-        left: 1%;
-        top: 33%; 
+        left: 11%;
+        top: 133%; 
         left: 42%;
         right:30.5%;
         position: absolute; 
@@ -885,7 +708,7 @@ footer{
 }
  
 .card-img{
-    border: 5px solid #f1e20d;
+    border: 5px solid #0d4af1;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #d9c2a3;
     justify-self:flex-end;
@@ -928,22 +751,22 @@ footer{
 
  
    
-  .home-title2{
+  .home-title{
       position: center; 
       
       position: absolute; 
-      top: 5%; 
-      left: 1%;
-     font-size: 2.5em;
-      height: 152px;
-      padding-right:5%;
-      font-size: 4em;
+      top: 3%; 
+      left: 0%;
+     
+      height: 73px;
+      padding-right:4.9%;
+      font-size: 3em;
       background-color: #D4AC0D; 
-      width: 96%; 
+      width: 96.70%; 
   }
 
 .title{
- font-size:    4em;
+ font-size:    2em;
  top:100%;
  color: steelblue;
 }
@@ -971,35 +794,44 @@ footer{
 
 .msg {
    
-    padding: 35px;
-    width: 50%;
+    padding: 265px;
+    width: 195%;
     grid-column: 10/10;
     grid-row: 6/7;
-   
+    height:45%;
     position:absolute;
     padding-right: 12%;
   }
 
+  
+.msg{
+    width: 62%;
+    display: block;
+    margin: 0 auto;
+   
+   
+}
+
 .logo{
-    width:162px;
-    height:109%;
+    width:155px;
+    height:99%;
  top:0%;
- padding-bottom:5%;
+ padding-bottom:34;
  position: absolute;
- margin-left: 118%;
+ margin-left: 119%;
  right:00%;
 
 }
 .logo-box{
 
-    border:solid 3px #D4AC0D;
+    border:solid 2px #D4AC0D;
     margin-top:00%;
-   margin-bottom: 39%;
+   margin-bottom: 41%;
    position: absolute;
-   height:2%;
-   padding-right:8%;
+   height:1%;
+   padding-right:8.16%;
    margin-left:  0%;
-   padding-bottom: 4.5%;
+   padding-bottom: 5.5%;
    margin-right:110%
 }
 
@@ -1035,37 +867,22 @@ text-align: center;
  
 }
 
-#background{
-    background-color: #D4AC0D;
-    height: 350px;
-   position: left;
-   width: 111%;
-}
-
-
 
 .mountains {
     width: 50%;
     display: block;
-    margin-left: 100px;
+    margin-left: 200px;
 
 
     position: absolute; 
-    top: 202%; 
+    top: 250%; 
     left: 5%;
-    width: 30%; 
-    height: 45%;
-    right:257%;
+    width: 55%; 
+    height: 55%;
+    right:230%;
     bottom:100%;
 }
  
-.msg{
-    width: 20%;
-    display: block;
-    margin: 0 auto;
-   
-   
-}
  
 .flex {
     display: flex;
@@ -1084,7 +901,7 @@ text-align: center;
   }
   
   .item {
-    padding: 11px;
+    padding: 24px;
  
   }
   
@@ -1139,7 +956,7 @@ text-align: center;
 
  
 h1 {
-    margin: 50px 0;
+    margin: 59px 0;
 }
 
 
@@ -1152,7 +969,7 @@ a {
 
 
 nav {
-    padding: 25px;
+    padding: 27px;
 }
 
 
@@ -1187,7 +1004,7 @@ nav {
     padding-top: 00px;
     padding-bottom: 25px;
     padding-left: 10%;
-     width: 952px;
+     width: 957px;
     padding-right: 5%;
     
   }
