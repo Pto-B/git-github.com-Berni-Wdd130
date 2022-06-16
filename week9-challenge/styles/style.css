@@ -1,0 +1,185 @@
+/* HTML Selectors */
+body {
+    
+    background-color: #212122;
+}
+ 
+@media only screen and (min-width: 32.5em) {
+    nav ul {
+        flex-direction: row;
+    }
+    
+    nav ul li:first-child {
+        display: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin: 0 10px;
+    }
+}
+
+
+
+
+
+.ice{
+    width: 280px;
+    top:85px;
+    bottom:100px;
+    border-radius:30px 30px 2px 2px ; 
+}
+
+
+.conteneur{
+    border-radius:30px 30px 30px 30px;     
+width:280px;
+ 
+padding-top:00px; 
+padding-bottom:445px;
+
+
+background: white;
+height: 100px;
+}
+
+
+
+
+.weeks{
+    position: absolute; 
+    top: 210px; 
+    left: 634px; 
+    color: #3F5B8B;
+}
+
+.msg{
+
+    font-family:"Roboto Slab"  ;
+    
+    color:  #8F848F;
+    top:85px;
+    padding-bottom: 160px;
+    position: relative;
+    text-align:end,justify;
+  overflow: hidden;
+  padding-left: 35px;
+  padding-right:35px ;
+  font-size: 15.3px;
+    }
+
+
+
+    
+.post{
+    position: absolute; 
+    top: 230px; 
+    left: 594px; 
+    bottom :200px;
+    font-family: "Roboto Slab" ;
+    text-align: justify;
+    color:black
+
+}
+
+
+
+.m{
+    background-color: #3F5B8B;
+    
+    margin-left: 0px;
+    margin-right:50px ;
+    margin-top:00px;
+    font: 1em sans-serif;
+    width: 97px;
+    position: absolute;
+    white-space: 11px;
+    height: 70px;
+    font-size: 1em; 
+    color: white;
+    bottom: 58px;
+    border-radius:1px 1px 3px 20px ;
+    line-height: 38px;
+    text-align: center;
+ }
+
+
+ .reado{
+    margin-left: 0px;
+    margin-right:50px ;
+    margin-top:00px;
+     
+    width: 97px;
+    position: absolute;
+    white-space: 11px;
+    height: 70px;
+    font-size: 0.9em; 
+    color: white;
+    bottom: 26px;
+   
+    line-height: 24px;
+    text-align: center; 
+    
+ }
+ .views{
+    background-color: #3F5B8B;
+    
+  left: 621.1px;
+  right:622px ;
+  margin-top:1px;
+  color: white;
+  bottom: 50px;
+
+ 
+  width: 82px;
+  position: absolute;
+  height: 70px; 
+  font-size: 1.5em;
+  line-height: 49px; 
+   
+ }
+
+
+ 
+
+
+
+
+
+
+.comments{
+    margin-left: 181px;
+    margin-right:49px ;
+    margin-top:10px;
+  
+
+   
+    width:99px;
+    position: absolute;
+
+    height: 70px; 
+    font-size: 83%;  
+    background-color: #3F5B8B;
+    color: white;
+    bottom: 61px;
+    border-radius:1px 1px 20px 1px ; 
+    line-height: 18px;  
+     
+} 
+.vemop{
+    font-size:80%;
+    left: 621.1px;
+    right:620px ;
+    margin-top:1px;
+    color: white;
+    bottom: 58px;
+    width: 75px;
+    position: absolute;
+    height: 70px; 
+    
+    line-height: 89px; 
+}
+
+
+
+
