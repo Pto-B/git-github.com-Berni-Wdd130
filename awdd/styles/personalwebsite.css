@@ -1,4 +1,3 @@
-     
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -1085,6 +1084,41 @@ a {
 
 
    
+#mySidenav a {
+    position: absolute;
+   left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 200px;
+    background-color: #D4AC0D;
+  }
+  
+  #portfolio {
+    top: 260px;
+    background-color:steelblue;
+  }
+  
+  #siteplan {
+    top: 320px;
+    background-color: #050000;
+  }
+  
+  #contact {
+    top: 380px;
+    background-color:#D4AC0D;
+  }
 
 
 
@@ -1125,9 +1159,3 @@ a {
 
 
  
-
-
-
- 
-
-
