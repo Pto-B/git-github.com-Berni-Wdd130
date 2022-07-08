@@ -603,7 +603,7 @@ a {
   
 .msg {
     background-color: rgba(30, 142, 235, 0.219);
-    padding: 180%;
+    padding: 185%;
     grid-column: 10/10;
     grid-row: 7/7;
     
